@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b6eb2f32-630e-4a61-8b71-c901a22c2812" alt="Preview">
+  <img src="https://github.com/user-attachments/assets/3e726506-4873-41c6-9197-37bd9f938094" alt="Preview">
 </p>
 
 ## Getting Started
