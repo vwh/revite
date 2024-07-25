@@ -5,12 +5,12 @@ interface ImageProps {
 
 export default function Image({ src, href }: ImageProps) {
   return (
-    <a href={href} target="_blank">
+    <a href={href} target="_blank" rel="noopener noreferrer">
       <img
         title={href}
         src={src}
         alt={src}
-        className="h-28 rounded hover:animate-pulse hover:opacity-85"
+        className="h-28 w-auto rounded hover:animate-pulse hover:opacity-85 sm:h-24 md:h-32 lg:h-40"
       />
     </a>
   );
