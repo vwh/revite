@@ -5,7 +5,7 @@ interface ImageProps {
 
 export default function Image({ src, href }: ImageProps) {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
+    <a href={href} title={href} target="_blank" rel="noopener noreferrer">
       <img
         title={href}
         src={src}

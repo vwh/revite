@@ -28,6 +28,7 @@ export default function App() {
       <section className="flex gap-2">
         <ModeToggle />
         <a
+          title="GitHub Repo"
           href="https://github.com/vwh/revite"
           target="_blank"
           rel="noopener noreferrer"
