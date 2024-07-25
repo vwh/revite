@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+<div align="center">
+    <h1>ReVite</h1>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <a href="https://github.com/vwh/revite/actions/workflows/format.yml">
+    <img src="https://github.com/vwh/revite/actions/workflows/format.yml/badge.svg" alt="Check Format Badge"/>
+  </a>
+  <a href="https://github.com/vwh/revite/actions/workflows/lint.yml">
+    <img src="https://github.com/vwh/revite/actions/workflows/lint.yml/badge.svg" alt="Lint Badge"/>
+  </a>
+</div>
 
-Currently, two official plugins are available:
+<p align="center">
+  <b>QuickStarter for React with Vite:</b> A streamlined template to kickstart your React projects with essential features built-in. Boost your development process with speed and efficiency.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b6eb2f32-630e-4a61-8b71-c901a22c2812" alt="Preview">
+</p>
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Installation
 
-- Configure the top-level `parserOptions` property like this:
+Clone the repository and install dependencies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/vwh/revite
+cd revite
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Development Server
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Contributing
+
+Contributions are welcome! Fork the repository, create your feature branch, commit your changes, and submit a pull request.
