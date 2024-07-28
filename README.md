@@ -1,5 +1,5 @@
-<div align="center">
-    <h1>ReVite</h1>
+<div align="center"> 
+  <h1>ReVite</h1> 
 </div>
 
 <div align="center">
@@ -16,8 +16,34 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3e726506-4873-41c6-9197-37bd9f938094" alt="Preview">
+  <img src="https://github.com/user-attachments/assets/25345150-7172-4349-8fb0-cd774cfa2a48" alt="Preview">
 </p>
+
+## Project Structure
+
+```csharp
+ReVite/
+├── components.json             # Configuration for Shadcn UI components
+├── index.html                  # Main HTML file
+├── package.json                # Project metadata and dependencies
+├── prettier.config.js          # Prettier configuration
+├── public/                     # Public assets
+│   └── images/                 # Image assets
+├── src/                        # Source files
+│   ├── App.tsx                 # Main app component
+│   ├── components/             # React components
+│   │   └── ui/                 # UI components
+│   ├── hooks/                  # Custom hooks
+│   ├── index.css               # Main CSS file
+│   ├── lib/                    # Utility functions
+│   ├── main.tsx                # Main entry point
+│   └── vite-env.d.ts           # TypeScript Vite environment definitions
+├── tailwind.config.js          # Tailwind CSS configuration
+├── tsconfig.app.json           # TypeScript app configuration
+├── tsconfig.json               # TypeScript base configuration
+├── tsconfig.node.json          # TypeScript Node configuration
+└── vite.config.ts              # Vite configuration
+```
 
 ## Getting Started
 
@@ -37,6 +63,44 @@ Start the development server:
 
 ```bash
 npm run dev
+```
+
+### Build
+
+Build the project for production:
+
+```bash
+npm run build
+```
+
+### Preview
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+### Linting
+
+Lint the project files:
+
+```bash
+npm run lint
+```
+
+### Formatting
+
+Format the project files:
+
+```bash
+npm run format
+```
+
+Check the formatting:
+
+```bash
+npm run format:check
 ```
 
 ## Contributing
