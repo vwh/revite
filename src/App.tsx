@@ -1,7 +1,7 @@
 import Image from "@/components/image";
 import ModeToggle from "@/components/mode-toggle";
 import { Button } from "./components/ui/button";
-import { Github } from "lucide-react";
+import { GithubIcon } from "lucide-react";
 
 const IMAGES = [
   { src: "/images/vite.webp", href: "https://vitejs.dev" },
@@ -34,7 +34,7 @@ export default function App() {
           rel="noopener noreferrer"
         >
           <Button variant="outline" size="icon">
-            <Github className="h-[1.2rem] w-[1.2rem]" />
+            <GithubIcon className="h-[1.2rem] w-[1.2rem]" />
           </Button>
         </a>
       </section>
