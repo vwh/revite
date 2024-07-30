@@ -14,6 +14,7 @@ export default function ModeToggle() {
       aria-label={
         theme === "dark" ? "Switch to light mode" : "Switch to dark mode"
       }
+      title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
       className="relative flex items-center justify-center p-2 transition-transform duration-300 hover:bg-gray-100 dark:hover:bg-gray-800"
     >
       {theme === "dark" ? (

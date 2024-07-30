@@ -33,7 +33,7 @@ export default function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button variant="outline" size="icon">
+          <Button variant="outline" size="icon" aria-label="GitHub">
             <GithubIcon className="h-[1.2rem] w-[1.2rem]" />
           </Button>
         </a>
