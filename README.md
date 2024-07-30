@@ -2,6 +2,10 @@
   <h1>ReVite</h1> 
 </div>
 
+<p align="center">
+  <b>QuickStarter for React with Vite:</b> A streamlined template to kickstart your React projects with essential features built-in. Boost your development process with speed and efficiency.
+</p>
+
 <div align="center">
   <a href="https://github.com/vwh/revite/actions/workflows/format.yml">
     <img src="https://github.com/vwh/revite/actions/workflows/format.yml/badge.svg" alt="Check Format Badge"/>
@@ -11,17 +15,15 @@
   </a>
 </div>
 
-<p align="center">
-  <b>QuickStarter for React with Vite:</b> A streamlined template to kickstart your React projects with essential features built-in. Boost your development process with speed and efficiency.
-</p>
+<br>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/25345150-7172-4349-8fb0-cd774cfa2a48" alt="Preview">
-</p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9ab15a1e-aa04-4813-8b5c-ca75b72afa43" alt="Preview">
+</div>
 
 ## Project Structure
 
-```csharp
+```bash
 ReVite/
 ├── components.json             # Configuration for Shadcn UI components
 ├── index.html                  # Main HTML file
