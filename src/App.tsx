@@ -1,5 +1,5 @@
 import Image from "@/components/image";
-import ModeToggle from "@/components/mode-toggle";
+import ModeToggle from "@/components/theme/theme-toggle";
 import { Button } from "./components/ui/button";
 import { GithubIcon } from "lucide-react";
 
