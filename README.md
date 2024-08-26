@@ -1,5 +1,5 @@
-<div align="center"> 
-  <h1>ReVite</h1> 
+<div align="center">
+  <h1>ReVite</h1>
 </div>
 
 <p align="center">
@@ -18,10 +18,12 @@
 <br>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9ab15a1e-aa04-4813-8b5c-ca75b72afa43" alt="Preview">
+  <a href="https://github.com/vwh/revite" target="_blank">
+    <img src="https://github.com/user-attachments/assets/9ab15a1e-aa04-4813-8b5c-ca75b72afa43" alt="Preview">
+  </a>
 </div>
 
-## Project Structure
+## 🗃️ Project Structure
 
 ```bash
 ReVite/
@@ -47,9 +49,9 @@ ReVite/
 └── vite.config.ts              # Vite configuration
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Installation
+### 📥 Installation
 
 Clone the repository and install dependencies:
 
@@ -59,7 +61,7 @@ cd revite
 npm install
 ```
 
-### Development Server
+### 💻 Development Server
 
 Start the development server:
 
@@ -67,7 +69,7 @@ Start the development server:
 npm run dev
 ```
 
-### Build
+### 🏗️ Build
 
 Build the project for production:
 
@@ -75,7 +77,7 @@ Build the project for production:
 npm run build
 ```
 
-### Preview
+### 👀 Preview
 
 Preview the production build locally:
 
@@ -83,7 +85,7 @@ Preview the production build locally:
 npm run preview
 ```
 
-### Linting
+### 🧹 Linting
 
 Lint the project files:
 
@@ -91,7 +93,7 @@ Lint the project files:
 npm run lint
 ```
 
-### Formatting
+### 🎨 Formatting
 
 Format the project files:
 
@@ -105,6 +107,6 @@ Check the formatting:
 npm run format:check
 ```
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Fork the repository, create your feature branch, commit your changes, and submit a pull request.
+Contributions are welcome! Feel free to open a pull request with your improvements or fixes.
