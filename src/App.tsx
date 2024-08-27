@@ -34,7 +34,7 @@ export default function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button variant="outline" size="icon" aria-label="GitHub">
+          <Button variant="gooeyRight" size="icon" aria-label="GitHub">
             <CodeXmlIcon className="h-[1.2rem] w-[1.2rem]" />
           </Button>
         </a>
