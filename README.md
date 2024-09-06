@@ -58,6 +58,11 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/vwh/revite
 cd revite
+
+# Using Bun
+bun install
+
+# Or using npm
 npm install
 ```
 
@@ -66,6 +71,10 @@ npm install
 Start the development server:
 
 ```bash
+# Using Bun
+bun run dev
+
+# Or using npm
 npm run dev
 ```
 
@@ -74,6 +83,10 @@ npm run dev
 Build the project for production:
 
 ```bash
+# Using Bun
+bun run build
+
+# Or using npm
 npm run build
 ```
 
@@ -82,6 +95,10 @@ npm run build
 Preview the production build locally:
 
 ```bash
+# Using Bun
+bun run preview
+
+# Or using npm
 npm run preview
 ```
 
@@ -90,6 +107,10 @@ npm run preview
 Lint the project files:
 
 ```bash
+# Using Bun
+bun run lint
+
+# Or using npm
 npm run lint
 ```
 
@@ -98,12 +119,20 @@ npm run lint
 Format the project files:
 
 ```bash
+# Using Bun
+bun run format
+
+# Or using npm
 npm run format
 ```
 
 Check the formatting:
 
 ```bash
+# Using Bun
+bun run format:check
+
+# Or using npm
 npm run format:check
 ```
 
